@@ -8,6 +8,8 @@ void loop() {
   digitalWrite(13,LOW);
   delay(1000);
 }
+// Metodo de parpadeo
+
  void parpadeo(int time){
   digitalWrite(13,HIGH);
   delay(time);
